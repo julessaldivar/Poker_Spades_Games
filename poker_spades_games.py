@@ -33,7 +33,7 @@ def check_straight(card1, card2, card3):
 
 # create check_3ofa_kind function
 def check_3ofa_kind(card1, card2, card3):
-    # compares
+    # compares cards using cards dictionary to see if they are all the same 
     if cards_dict[card1] == cards_dict[card2] == cards_dict[card3]:
         return cards_dict[card1]
     else:
