@@ -2,7 +2,7 @@ import unittest
 from poker_spades_games import check_straight, check_3ofa_kind, check_royal_flush, play_cards
 
 
-class TestspgFunctions(unittest.TestCase):
+class TestpsgFunctions(unittest.TestCase):
     def test_check_straight(self):
         self.assertEqual(check_straight('S5', 'S6', 'S7'), 7)
         self.assertEqual(check_straight('S6', 'S5', 'S7'), 7)
